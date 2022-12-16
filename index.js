@@ -3,7 +3,7 @@ const pool = require('./dbConn')
 const bodyParser = require('body-parser')
 const todoControl = require('./controllers/todoController')
 const app = express()
-const port = 3000
+const port = 22
 const todoController = new todoControl()
 const db_link = "/doneTest"
 
